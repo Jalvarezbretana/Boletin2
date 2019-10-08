@@ -26,7 +26,8 @@ public class Boletin2_4 {
         int cinco = dinero % 20;
         int euro = dinero % 5;
         System.out.println("La cantidad de billetes son " + cien + " billetes de cien, "
-                + veinte + " billetes de veinte, " + cinco + " billetes de cinco y " + euro+" monedas de euro");
+                + veinte + " billetes de veinte, " + cinco + " billetes de cinco y " + euro
+                + " monedas de euro");
 
     }
 
