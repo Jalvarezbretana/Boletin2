@@ -23,7 +23,7 @@ public class Boletin2_4 {
         int dinero = sc.nextInt();
         int cien = dinero / 100;
         int veinte = (dinero % 100) / 20;
-        int cinco = dinero % 20;
+        int cinco = (dinero % 20) / 5;
         int euro = dinero % 5;
         System.out.println("La cantidad de billetes son " + cien + " billetes de cien, "
                 + veinte + " billetes de veinte, " + cinco + " billetes de cinco y " + euro
